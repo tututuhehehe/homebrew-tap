@@ -1,28 +1,28 @@
 class Apim < Formula
   desc "Terminal manager for model-provider API keys (TUI + CLI)"
   homepage "https://github.com/tututuhehehe/apim-cli"
-  version "0.1.8"
+  version "0.1.9"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tututuhehehe/apim-cli/releases/download/v0.1.8/apim-v0.1.8-aarch64-apple-darwin.tar.gz"
-      sha256 "7c657d500f751ae7ba33ee23580d2411d837c5880fd756c708c9035c54d9c4c7"
+      url "https://github.com/tututuhehehe/apim-cli/releases/download/v0.1.9/apim-v0.1.9-aarch64-apple-darwin.tar.gz"
+      sha256 "b7d2b46e7f8f7c964e4c9c2b03494ac6c7b71fd1bc1b6dd0f9e6b71292092b3e"
     end
     on_intel do
-      url "https://github.com/tututuhehehe/apim-cli/releases/download/v0.1.8/apim-v0.1.8-x86_64-apple-darwin.tar.gz"
-      sha256 "ce85de6c4b035f04311368eb3fa34b8d69ac2b7c894ac225f186b558736117f6"
+      url "https://github.com/tututuhehehe/apim-cli/releases/download/v0.1.9/apim-v0.1.9-x86_64-apple-darwin.tar.gz"
+      sha256 "c4f1cbf52e556af256d3096710ca7adb5a9439f973ff13fde8297814b308816c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tututuhehehe/apim-cli/releases/download/v0.1.8/apim-v0.1.8-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4f73e29e18c0ac9b49fb0f888860b987a0737fc0eb799f7a0b4b8f6c4d27c434"
+      url "https://github.com/tututuhehehe/apim-cli/releases/download/v0.1.9/apim-v0.1.9-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "75d6e50ff29f87a92e0c9a1f2be03f0d618ee61c69890022c867866a87248f88"
     end
     on_intel do
-      url "https://github.com/tututuhehehe/apim-cli/releases/download/v0.1.8/apim-v0.1.8-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "77d647b9f12fc44e65985503d388c8bd5acc1398fa1b232f20916846b317b7ba"
+      url "https://github.com/tututuhehehe/apim-cli/releases/download/v0.1.9/apim-v0.1.9-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e68c06e386bf1009d119cd3f7f5a74633f6ff582c2800f1fe77395e0de174e6a"
     end
   end
 
