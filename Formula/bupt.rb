@@ -7,7 +7,11 @@ class Bupt < Formula
   depends_on arch: :arm64
 
   def install
-    bin.install "bupt-macos-arm64/bupt"
+    # Homebrew 7's pour pipeline may stage the archive with the top-level
+    # directory stripped or kept; locate the binary either way.
+    bupt = Dir["**/bupt"].first
+    odie "bupt binary not found in the downloaded archive" if bupt.nil?
+    bin.install bupt
   end
 
   test do
