@@ -1,12 +1,11 @@
-# homebrew-tap
+# tututuhehehe/homebrew-tap
 
-Homebrew formulae for [tututuhehehe](https://github.com/tututuhehehe)'s tools.
-
-## apim
+个人 Homebrew tap。
 
 ```bash
-brew install tututuhehehe/tap/apim
+brew tap tututuhehehe/tap
+brew install bupt        # 北邮校园 CLI（Rust 单文件）
+brew install apim
 ```
 
-终端里的模型厂商 API Key 管理器（TUI + CLI）。源码与文档：
-<https://github.com/tututuhehehe/apim-cli>
+或直接 `brew install tututuhehehe/tap/<formula>`。
